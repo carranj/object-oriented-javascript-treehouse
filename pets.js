@@ -7,11 +7,8 @@ const ernie = {
     }
 }
 
-console.log(ernie['age']);
-console.log(ernie['breed']);
+ernie.age = 2;
+ernie['age'] = 2;
 
-ernie['bark']();
-
-var prop = 'breed';
-
-ernie[prop];
+ernie.color = 'black';
+console.log(ernie);
